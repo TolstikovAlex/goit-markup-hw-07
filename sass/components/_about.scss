@@ -1,0 +1,35 @@
+/* About Us  */
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about__item+.about__item {
+    margin-left: 30px;
+}
+
+.about__item {
+    position: relative;
+    z-index: -1;
+}
+
+.about__title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    color: $primary-white-color;
+}

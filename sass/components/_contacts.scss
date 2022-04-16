@@ -1,0 +1,38 @@
+.contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact__info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: $primary-text-color;
+    fill: $primary-text-color;
+    transition:
+        color 250ms $timing-function,
+        fill 250ms $timing-function;
+
+
+&:hover,
+&:focus {
+    color: $accent-color;
+    fill: $accent-color;
+    }
+}
+
+.contact__box {
+    display: flex;
+    align-items: center;
+}
+
+.contact__icon {
+
+    margin-right: 10px;
+}

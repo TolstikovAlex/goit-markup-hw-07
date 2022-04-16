@@ -1,0 +1,10 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  border-bottom: $header-border solid $header-border-color;
+}
+
+.page-header__section {
+  display: flex;
+  align-items: center;
+}
