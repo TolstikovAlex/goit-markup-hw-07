@@ -3,11 +3,11 @@
     margin-left: (-1 * $card-gap);
 }
 
-.section--background {
+.section--team-background {
     background-color: $team-bg-color;
 }
 
-.team__card {
+.team__item {
     flex-basis: calc(100% / 4 - #{$card-gap});
     margin-left: $card-gap;
 
@@ -64,7 +64,7 @@
     margin-bottom: 10px;
 }
 
-.team__info {
+.team__text {
     font-weight: 400;
     text-align: center;
     margin-bottom: 16px;

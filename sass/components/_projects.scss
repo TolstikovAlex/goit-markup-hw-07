@@ -43,11 +43,6 @@
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06),
         0 4px 1px rgba(0, 0, 0, 0.12);
     }
-
-    &:hover .card-overlay,
-    &:focus .card-overlay {
-        transform: translateY(0)
-    }
 }
 
 .card__content {
@@ -69,6 +64,11 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform 250ms $timing-function;
+
+    .card__link:hover &,
+    .card__link:focus & {
+        transform: translateY(0)
+    }
 }
 
 .card-overlay__info {

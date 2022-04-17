@@ -5,13 +5,13 @@
     justify-content: center;
 }
 
-.about__item+.about__item {
-    margin-left: 30px;
-}
-
 .about__item {
     position: relative;
     z-index: -1;
+
+    & + & {
+        margin-left: 30px;
+    }
 }
 
 .about__title {
